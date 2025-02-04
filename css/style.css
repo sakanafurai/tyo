@@ -78,7 +78,7 @@ h1.site-title {
 
 div.main-menu {
   padding: 2rem;
-  margin-bottom: 3rem !important; /*mb-6*/
+  margin-bottom: 3rem; /*mb-6*/
 }
 
 @media screen and (max-width: 768px) {

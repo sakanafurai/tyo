@@ -110,11 +110,10 @@
   </nav>
   <?php endif ?>
 
-    </div>
-  </div>
-
   <!-- Footer -->
   <?php include(THEME_DIR_PHP.'footer.php'); ?>
+    </div>
+  </div>
 
 </div>
 

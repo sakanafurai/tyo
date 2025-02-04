@@ -52,10 +52,11 @@
     <!-- Load Bludit Plugins: Page End -->
     <?php Theme::plugins('pageEnd'); ?>
     </div>
+    <!-- Footer -->
+    <?php include(THEME_DIR_PHP.'footer.php'); ?>
   </div>
 
-<!-- Footer -->
-<?php include(THEME_DIR_PHP.'footer.php'); ?>
+
 </div>
 
 <!-- Spacer -->

@@ -132,6 +132,7 @@ div.media-left img {
 div.page-content, footer.page-footer {
   margin-right: auto;
   margin-left: auto;
+  padding-left: 1.5rem;
 }
 
 div.page-content {
@@ -183,7 +184,7 @@ span.category-tag svg {
 /* Footer */
 footer {
   margin: 0;
-  padding: 1.5rem 0 1.5rem 1.5rem; /*py-5*/
+  padding: 1.5rem 0; /*py-5*/
 }
 
 @media screen and (max-width: 768px) {

@@ -23,8 +23,8 @@ div.sidebar-content {
 }
 
 div.home-content, footer {
-/*  margin-right: 10%;
-  margin-left: 10%;*/
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 768px) {

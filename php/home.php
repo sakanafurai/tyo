@@ -1,7 +1,7 @@
 <div class="column is-7 has-background-grey-lighter p-0 m-0 main">
   <!-- Main content -->
-  <div class="has-background-inherit home-content"  data-aos="fade-down">
-    <div class="container">
+  <div class="has-background-inherit home-content" data-aos="fade-down">
+    <div class="container is-max-desktop">
 
       <?php if ( $WHERE_AM_I == 'category' ): ?>
         <h2 class="title"><?php echo $page->category(); ?></h2>

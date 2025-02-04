@@ -86,6 +86,10 @@ div.main-menu {
     padding: 1rem; /*px-4*/
     margin-bottom: 0; /*mb-0*/
   }
+
+  div.main-menu.grid {
+    margin-bottom: 0rem;
+  }
 }
 
 /* Desktop cards */

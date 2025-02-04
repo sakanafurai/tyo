@@ -57,7 +57,7 @@
 
     <!-- Title logo -->
     <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-      <figure class="title-logo my-6">
+      <figure class="title-logo">
         <?php if ($site->logo()): ?>
         <img class="image is-rounded" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
         <?php else: ?>

@@ -2,7 +2,7 @@
 <div class="column is-1 has-background-grey-light p-0 is-hidden-mobile spacer"></div>
 
 <!-- Sidebar -->
-<div class="column is-3 has-background-grey-light p-0 pb-5 sidebar">
+<div class="column is-3 has-background-grey-light p-0 sidebar">
   <div class="sidebar-content">
 
     <!-- Mobile menu -->

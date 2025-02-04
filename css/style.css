@@ -14,7 +14,7 @@ div.column.main, div.column.sidebar, div.column.spacer {
 }
 
 div.column.sidebar {
-
+  padding-bottom: 1.5rem;
 }
 
 div.sidebar-content {
@@ -30,6 +30,7 @@ div.home-content, footer {
 @media screen and (max-width: 768px) {
   div.column.sidebar {
   min-height: unset;
+  padding-bottom: 0;
   }
 
   div.sidebar-content {

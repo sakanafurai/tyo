@@ -129,13 +129,10 @@ div.media-left img {
 }
 
 /* Pages */
-div.page-content, footer.page-footer {
+div.page-content {
   margin-right: auto;
   margin-left: auto;
   padding-left: 1.5rem;
-}
-
-div.page-content {
   padding-top: 3rem; /*py-6*/
   padding-bottom: 3rem; /*py-6*/
 }

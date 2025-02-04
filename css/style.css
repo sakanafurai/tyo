@@ -190,6 +190,6 @@ footer {
 @media screen and (max-width: 768px) {
   footer {
     margin: 0;
-    padding: 1.5rem; /*p-5*/
+    padding: 1.5rem 0; /*py-5*/
   }
 }

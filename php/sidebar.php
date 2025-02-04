@@ -65,7 +65,7 @@
         <?php endif ?>
       </figure>
 
-    <h1 class="title has-text-centered mb-6 site-title"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+    <h1 class="title has-text-centered site-title"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
 
     </div>
 

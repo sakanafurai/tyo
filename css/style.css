@@ -23,8 +23,8 @@ div.sidebar-content {
 }
 
 div.home-content, footer {
-  margin-right: 10%;
-  margin-left: 10%;
+/*  margin-right: 10%;
+  margin-left: 10%;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -129,8 +129,8 @@ div.media-left img {
 
 /* Pages */
 div.page-content, footer.page-footer {
-  margin-right: unset;
-  margin-left: unset;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 div.page-content {

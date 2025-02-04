@@ -3,7 +3,7 @@
 
 <!-- Page content -->
 <div class="column is-5 has-background-grey-lighter p-0 m-0 main">
-  <div class="page-content has-background-grey-lighter">
+  <div class="page-content has-background-grey-lighter" data-aos="fade-down">
     <div class="box">
     <!-- Title -->
       <h2 class="title page-title"><?php echo $page->title(); ?></h2>

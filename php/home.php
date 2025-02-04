@@ -1,6 +1,6 @@
 <div class="column is-7 has-background-grey-lighter p-0 m-0 main">
   <!-- Main content -->
-  <div class="has-background-inherit home-content">
+  <div class="has-background-inherit home-content"  data-aos="fade-down">
     <div class="container">
 
       <?php if ( $WHERE_AM_I == 'category' ): ?>

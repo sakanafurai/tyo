@@ -8,6 +8,7 @@
   <?php echo Theme::metaTags('description'); ?>
   <?php echo Theme::favicon('img/favicon.png'); ?>
   <?php echo Theme::css('css/bulma/css/versions/bulma-no-dark-mode.css'); ?>
+  <?php echo Theme::css('css/aos.css'); ?>
   <?php echo Theme::css('css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->
@@ -34,6 +35,10 @@
 
   <!-- Scripts -->
   <?php echo Theme::js('js/mobile-menu.js'); ?>
+  <?php echo Theme::js('js/aos.js'); ?>
+  <script>
+  AOS.init();
+  </script>
 
   <!-- Load Bludit Plugins: Site Body End -->
   <?php Theme::plugins('siteBodyEnd'); ?>

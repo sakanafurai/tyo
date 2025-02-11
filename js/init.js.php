@@ -23,10 +23,14 @@ function appendCss(URL) {
 if(isSmartPhone(true)) {
   appendScript("<?php echo DOMAIN_THEME . 'js/mobile-menu.js' ?>");
 } else {
-  appendScript("<?php echo DOMAIN_THEME . 'js/aos.js' ?>");
+  //appendScript("<?php echo DOMAIN_THEME . 'js/aos.js' ?>");
   appendCss("<?php echo DOMAIN_THEME . 'css/aos.css' ?>");
-  document.createElement('script');
-  let aosInit = document.createElement('script');
-  aosInit.textContent = "AOS.init();";
-  document.body.appendChild(aosInit);
+
+  fetch("<?php echo DOMAIN_THEME . 'js/aos.js' ?>").then(r=>{return r.text()}).then(t=>eval(t)).then(()=>{
+    AOS.init();
+  });
+  //document.createElement('script');
+  //let aosInit = document.createElement('script');
+  //aosInit.textContent = "AOS.init();";
+  //document.body.appendChild(aosInit);
 }

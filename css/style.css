@@ -166,7 +166,7 @@ div.home-content h2.title svg {
   width: var(--bulma-title-size);
   height: var(--bulma-title-size);
   vertical-align: text-bottom;
-  fill: var(--bulma-title-color);
+  /*fill: var(--bulma-title-color);*/
   margin-right: 0.5rem;
 }
 
@@ -174,7 +174,7 @@ span.tag svg {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
-  fill: hsl(var(--bulma-tag-h), var(--bulma-tag-s), var(--bulma-tag-color-l));
+  /*fill: hsl(var(--bulma-tag-h), var(--bulma-tag-s), var(--bulma-tag-color-l));*/
   margin-right: 3px;
 }
 

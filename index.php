@@ -61,7 +61,10 @@
   } else {
     appendScript("<?php echo DOMAIN_THEME . 'js/aos.js' ?>");
     appendCss("<?php echo DOMAIN_THEME . 'css/aos.css' ?>");
-    AOS.init();
+    document.createElement('script');
+    let aosInit = document.createElement('script');
+    aosInit.textContent = "AOS.init();";
+    document.body.appendChild(aosInit);
   }
   </script>
 

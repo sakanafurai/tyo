@@ -21,7 +21,7 @@
       }
       ?>
 
-      <div class="grid is-col-min-12 is-gap-4">
+      <div class="grid is-col-min-10 is-gap-4">
 
   <?php foreach ($content as $page): ?>
   <div class="cell card is-4 m-0 is-hidden-mobile">

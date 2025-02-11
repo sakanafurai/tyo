@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="navbar-menu has-background-inherit">
+      <div class="navbar-menu has-background-inherit" id="navMenu">
         <div class="navbar-end">
           <a class="navbar-item has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 

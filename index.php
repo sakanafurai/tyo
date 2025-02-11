@@ -8,7 +8,6 @@
   <?php echo Theme::metaTags('description'); ?>
   <?php echo Theme::favicon('img/favicon.png'); ?>
   <?php echo Theme::css('css/bulma/css/versions/bulma-no-dark-mode.css'); ?>
-  <?php echo Theme::css('css/aos.css'); ?>
   <?php echo Theme::css('css/style.css'); ?>
 
   <!-- Load Bludit Plugins: Site head -->
@@ -34,10 +33,36 @@
     </div>
 
   <!-- Scripts -->
-  <?php echo Theme::js('js/mobile-menu.js'); ?>
-  <?php echo Theme::js('js/aos.js'); ?>
   <script>
-  AOS.init();
+  function isSmartPhone() {
+    if (window.matchMedia && window.matchMedia('(max-device-width: 768px)').matches) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  function appendScript(URL) {
+    var el = document.createElement('script');
+    el.src = URL;
+    document.body.appendChild(el);
+  };
+
+  function appendCss(URL) {
+    var el = document.createElement('link');
+    el.href = URL;
+    el.rel = 'stylesheet';
+    el.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(el);
+  }
+
+  if(isSmartPhone(true)) {
+    appendScript("<?php echo DOMAIN_THEME . 'js/mobile-menu.js' ?>");
+  } else {
+    appendScript("<?php echo DOMAIN_THEME . 'js/aos.js' ?>");
+    appendCss("<?php echo DOMAIN_THEME . 'css/aos.css' ?>");
+    AOS.init();
+  }
   </script>
 
   <!-- Load Bludit Plugins: Site Body End -->

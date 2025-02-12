@@ -80,8 +80,8 @@ h1.site-title {
 }
 
 div.main-menu {
-  padding: 2rem;
-  margin-bottom: 3rem; /*mb-6*/
+  padding: 2rem 2rem 3rem 2rem;
+  /*margin-bottom: 3rem;*/ /*mb-6*/
 }
 
 @media screen and (max-width: 768px) {

@@ -3,7 +3,8 @@
 ## About
 TYO is a future-look theme with cards featuring large cover images, and big fixed sidebar. Suitable for blog media.
 
-[Live demo](https://via.rossa.cc/demo/tyo)
+[Live demo](https://via.rossa.cc/demo/tyo) / [Download](https://github.com/sakanafurai/tyo/releases/download/v1.0.0/tyo.zip)
+
 
 ## License
 MIT

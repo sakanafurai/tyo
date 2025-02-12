@@ -12,4 +12,6 @@ MIT
 ## Assets
 * [Bulma](https://bulma.io/)
 * [Lucide](https://lucide.dev/)<br>
+Social media logo SVG icons
+* [Font Awesome](https://fontawesome.com/)<br>
 SVG icons

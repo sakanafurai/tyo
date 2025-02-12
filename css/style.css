@@ -1,6 +1,8 @@
 /* Fonts */
 body {
-  font-family: Avenir, Lato, Arial, 'Noto Sans JP', sans-serif;
+  font-family: Avenir, Lato, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* Japanese font-family settings below */
+  /*  font-family: Lato, Avenir, Helvetica, Arial, "Noto Sans JP", "Source Han JP", 源ノゴシック, YuGothic, "Yu Gothic", メイリオ, Meiryo, "ＭＳ ゴシック", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
 }
 
 /* Main spacing */

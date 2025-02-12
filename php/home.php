@@ -41,12 +41,13 @@
 
         <!-- Title -->
           <p class="title is-4"><?php echo $page->title(); ?></p>
-          <p class="subtitle is-6 mt-2"><?php echo $page->date(); ?></p>
+          <p class="subtitle is-6 mt-2 mr-2"><?php echo $page->date(); ?></p>
         </div>
       </div>
 
       <div class="content">
-        <?php echo $page->description(); ?>
+        <p><?php echo $page->description(); ?></p>
+        <?php if ($page->category()): ?><p><span class="tag is-link page-category"><?php echo $page->category(); ?></span></p><?php endif ?>
       </div>
     </div>
   </div>

@@ -60,8 +60,6 @@
       <figure class="title-logo">
         <?php if ($site->logo()): ?>
         <img class="image is-rounded" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
-        <?php else: ?>
-        <img class="site-logo-img" src="<?php echo DOMAIN_THEME . 'img/site-logo.png' ?>" alt="<?php echo $site->title(); ?>">
         <?php endif ?>
       </figure>
 

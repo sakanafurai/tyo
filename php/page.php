@@ -10,7 +10,7 @@
 
     <?php if (!$page->isStatic() && !$url->notFound()): ?>
     <!-- Page data -->
-      <p class="page-date mb-6"><?php echo $page->date(); ?></p>
+      <p class="page-date mb-6"><?php echo $page->date(); ?><time datetime="<?php echo $page->date("Y-m-d H:i"); ?>"></p>
     <?php endif ?>
 
     <!-- Load Bludit Plugins: Page Begin -->

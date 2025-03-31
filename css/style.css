@@ -50,6 +50,29 @@ a.navbar-burger {
   right: 0;
 }
 
+.navbar-menu .navbar-item {
+  opacity: 0;
+}
+
+.navbar-menu.is-active .navbar-item{
+  opacity: 1;
+  animation: fadeIn 0.5s forwards;
+}
+
+/* Fade-in effects on mobile navbar */
+@keyframes fadeIn {
+  0% {
+    top: 45%;
+    opacity: 0;
+  }
+
+  100% {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
+
 /* Main menu */
 figure.title-logo {
   max-width: 180px;

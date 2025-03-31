@@ -83,7 +83,7 @@
     </div>
 
     <!-- Main menu -->
-    <div class="columns is-multiline is-2 main-menu">
+    <div class="columns is-multiline is-2 p-5 pb-6 main-menu">
       <a class="column is-half has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 
       <!-- Categories -->

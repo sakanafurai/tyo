@@ -49,7 +49,7 @@ div.home-content, footer {
 }
 
 @media screen and (max-width: 768px) {
-  div.column.sidebar {
+  div.column.sidebar, div.column.main {
   min-height: unset;
   padding-bottom: 0;
   }

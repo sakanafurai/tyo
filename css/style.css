@@ -137,6 +137,7 @@ div.main-menu {
 div.home-content {
   padding-top: 3rem;
   padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -177,8 +178,7 @@ div.media-left img {
 div.article {
   margin-right: auto;
   margin-left: auto;
-  padding-top: 3rem; /*py-6*/
-  padding-bottom: 0rem; /*py-6*/
+  padding: 3rem 1.5rem 0 1.5rem;
 }
 
 div.article div.box {

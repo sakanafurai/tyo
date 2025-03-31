@@ -70,7 +70,7 @@
 </div>
 
 <!-- Sidebar -->
-<div class="column is-4 p-0 pb-5 is-hidden-mobile sidebar">
+<div class="column is-4 p-0 pb-5 is-hidden-mobile sidebar desktop-sidebar">
   <div class="sidebar-content">
 
     <!-- Title logo -->

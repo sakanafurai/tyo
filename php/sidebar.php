@@ -6,6 +6,19 @@
   <!-- Mobile menu -->
   <nav class="navbar is-hidden-desktop has-background-inherit">
     <div class="navbar-brand">
+
+    <!-- Title logo -->
+    <div class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-align-items-center">
+      <figure class="title-logo pt-4 pb-0 pr-4 pl-4">
+      <?php if ($site->logo()): ?>
+        <img class="image is-rounded is-64x64" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
+      <?php endif ?>
+      </figure>
+
+      <h1 class="title has-text-centered site-title pt-4 pb-0"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+
+    </div>
+
       <div class="navbar-content">
         <a role="button" class="navbar-burger has-text-grey m-0" data-target="navMenu" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
@@ -17,18 +30,6 @@
     </div>
 
   </nav>
-
-  <!-- Title logo -->
-  <div class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-align-items-center">
-    <figure class="title-logo pt-0 pb-0 pr-4 pl-4">
-    <?php if ($site->logo()): ?>
-      <img class="image is-rounded is-64x64" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
-    <?php endif ?>
-    </figure>
-
-    <h1 class="title has-text-centered site-title pt-0 pb-0"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
-
-  </div>
 
   <!-- Menu -->
   <div class="navbar-menu has-background-inherit is-shadowless" id="navMenu">

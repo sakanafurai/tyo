@@ -55,13 +55,13 @@
 
   <!-- Title logo -->
   <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-    <figure class="title-logo">
+    <figure class="title-logo mt-2 mb-4">
     <?php if ($site->logo()): ?>
       <img class="image is-rounded" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
     <?php endif ?>
     </figure>
 
-    <h1 class="title has-text-centered site-title"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+    <h1 class="title has-text-centered site-title mb-5"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
 
   </div>
 </div>
@@ -72,13 +72,13 @@
 
     <!-- Title logo -->
     <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-      <figure class="title-logo">
+      <figure class="title-logo my-6">
         <?php if ($site->logo()): ?>
         <img class="image is-rounded" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
         <?php endif ?>
       </figure>
 
-    <h1 class="title has-text-centered site-title"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+    <h1 class="title has-text-centered site-title mb-6"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
 
     </div>
 

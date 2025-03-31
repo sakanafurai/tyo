@@ -15,9 +15,9 @@ div.column.main, div.column.sidebar, div.column.spacer {
   min-height: 100vh;
 }
 
-div.column.sidebar {
+/*div.column.sidebar {
   padding-bottom: 1.5rem;
-}
+}*/
 
 div.sidebar-content {
   position: fixed;

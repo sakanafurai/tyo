@@ -69,7 +69,7 @@
 </div>
 
 <!-- Sidebar -->
-<div class="column is-3 has-background-grey-light p-0 is-hidden-mobile sidebar">
+<div class="column is-3 has-background-grey-light p-0 pb-5 is-hidden-mobile sidebar">
   <div class="sidebar-content">
 
     <!-- Title logo -->

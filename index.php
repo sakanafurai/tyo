@@ -23,7 +23,7 @@
     <div class="column is-8 has-background-grey-lighter"></div>
   </div>
 
-  <main class="container is-desktop">
+  <div class="wrapper container is-desktop">
     <div class="columns main m-0">
 
     <!-- Sidebar -->
@@ -37,7 +37,7 @@
     } ?>
 
     </div>
-  </main>
+  </div>
 
   <!-- Scripts -->
   <script>

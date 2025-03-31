@@ -117,5 +117,3 @@
   </div>
 
 </div>
-
-<!--<div class="column is-1 has-background-grey-lighter p-0 is-hidden-mobile spacer"></div>-->

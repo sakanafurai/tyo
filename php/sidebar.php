@@ -1,6 +1,3 @@
-<!-- Spacer -->
-<!--<div class="column is-1 p-0 is-hidden-mobile spacer"></div>-->
-
 <!-- Mobile Sidebar -->
 <div class="column is-4 p-0 pb-4 has-background-grey-light is-hidden-tablet sidebar">
   <!-- Mobile menu -->

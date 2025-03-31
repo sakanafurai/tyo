@@ -1,6 +1,3 @@
-<!-- Spacer -->
-<!--<div class="column is-1 p-0 is-hidden-mobile spacer"></div>-->
-
 <!-- Page content -->
 <div class="column is-8 p-0 m-0 main">
   <div class="page-content" data-aos="fade-down">
@@ -58,6 +55,3 @@
 
 
 </div>
-
-<!-- Spacer -->
-<!--<div class="column is-1 has-background-grey-lighter p-0 is-hidden-mobile spacer"></div>-->

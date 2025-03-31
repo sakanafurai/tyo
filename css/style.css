@@ -34,7 +34,7 @@ div.columns, div.column {
   padding: 0;
 }
 
-div.column.main, div.column.sidebar, div.column.spacer {
+div.column.main, div.column.sidebar {
   min-height: 100vh;
 }
 

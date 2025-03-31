@@ -83,19 +83,19 @@
     </div>
 
     <!-- Main menu -->
-    <div class="grid main-menu">
-      <a class="cell has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
+    <div class="columns is-multiline is-2 main-menu">
+      <a class="column is-half has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 
       <!-- Categories -->
       <?php
       $items = getCategories();
       foreach ($items as $category) { ?>
-        <a class="cell has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo $category->permalink() ?>"><?php echo $category->name() ?></a>
+        <a class="column is-half has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo $category->permalink() ?>"><?php echo $category->name() ?></a>
         <?php } ?>
 
       <!-- Static pages -->
       <?php foreach ($staticContent as $staticPage) : ?>
-        <a class="cell has-text-inherit is-hidden-mobile has-text-centered has-text-weight-semibold" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
+        <a class="column is-half has-text-inherit is-hidden-mobile has-text-centered has-text-weight-semibold" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
       <?php endforeach ?>
 
     </div>

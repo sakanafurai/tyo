@@ -6,13 +6,13 @@
 
     <!-- Title logo -->
     <div class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-align-items-center">
-      <figure class="title-logo pt-4 pb-0 pr-4 pl-4">
+      <figure class="title-logo mt-4 mb-0 pr-4 pl-4">
       <?php if ($site->logo()): ?>
         <img class="image is-rounded is-64x64" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
       <?php endif ?>
       </figure>
 
-      <h1 class="title has-text-centered site-title pt-4 pb-0"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+      <h1 class="title has-text-centered site-title mt-4 pb-0"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
 
     </div>
 
@@ -67,7 +67,7 @@
 </div>
 
 <!-- Sidebar -->
-<div class="column is-4 p-0 pb-5 is-hidden-mobile sidebar desktop-sidebar">
+<div class="column is-4 p-0 mb-5 is-hidden-mobile sidebar desktop-sidebar">
   <div class="sidebar-content">
 
     <!-- Title logo -->
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Tablet Main menu -->
-    <div class="is-flex is-flex-direction-column p-5 pb-6 is-hidden-mobile is-hidden-desktop main-menu">
+    <div class="is-flex is-flex-direction-column px-5 mt-5 mb-6 is-hidden-mobile is-hidden-desktop main-menu">
       <a class="has-text-inherit has-text-centered has-text-weight-semibold mb-2" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 
       <!-- Categories -->
@@ -101,7 +101,7 @@
     </div>
 
     <!-- Desktop Main menu -->
-    <div class="columns is-multiline is-2 p-5 pb-6 is-hidden-touch main-menu">
+    <div class="columns is-multiline is-2 px-5 mt-5 mb-6 is-hidden-touch main-menu">
       <a class="column is-half has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 
       <!-- Categories -->

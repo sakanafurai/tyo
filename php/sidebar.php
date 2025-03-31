@@ -2,7 +2,7 @@
 <div class="column is-1 has-background-grey-light p-0 is-hidden-mobile spacer"></div>
 
 <!-- Mobile Sidebar -->
-<div class="column is-3 has-background-grey-light p-0 is-hidden-tablet sidebar">
+<div class="column is-3 has-background-grey-light p-0 pb-4 is-hidden-tablet sidebar">
   <!-- Mobile menu -->
   <nav class="navbar is-hidden-desktop has-background-inherit">
     <div class="navbar-brand">

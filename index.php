@@ -18,7 +18,13 @@
   <!-- Load Bludit Plugins: Site Body Begin -->
   <?php Theme::plugins('siteBodyBegin'); ?>
 
-  <div class="columns main m-0">
+  <div class="bg columns">
+    <div class="column is-4 has-background-grey-light"></div>
+    <div class="column is-8 has-background-grey-lighter"></div>
+  </div>
+
+  <main>
+    <div class="columns main m-0">
 
     <!-- Sidebar -->
     <?php include(THEME_DIR_PHP.'sidebar.php'); ?>
@@ -31,6 +37,7 @@
     } ?>
 
     </div>
+  </main>
 
   <!-- Scripts -->
   <script>

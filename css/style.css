@@ -5,7 +5,29 @@ body {
   /*  font-family: Lato, Avenir, Helvetica, Arial, "Noto Sans JP", "Source Han JP", 源ノゴシック, YuGothic, "Yu Gothic", メイリオ, Meiryo, "ＭＳ ゴシック", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
 }
 
+/* background */
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.bg .columns {
+  height: 100vh;
+  z-index: 5;
+}
+
 /* Main spacing */
+main {
+  position: sticky;
+  background: transparent;
+  z-index: 10;
+  overflow: hidden;
+}
+
 div.columns, div.column {
   margin: 0;
   padding: 0;

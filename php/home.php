@@ -1,4 +1,4 @@
-<div class="column is-7 has-background-grey-lighter p-0 m-0 main">
+<div class="column is-8 has-background-grey-lighter p-0 m-0 main">
   <!-- Main content -->
   <div class="has-background-inherit home-content" data-aos="fade-down">
     <div class="container is-max-desktop">
@@ -118,4 +118,4 @@
 
 </div>
 
-<div class="column is-1 has-background-grey-lighter p-0 is-hidden-mobile spacer"></div>
+<!--<div class="column is-1 has-background-grey-lighter p-0 is-hidden-mobile spacer"></div>-->

@@ -22,6 +22,7 @@ body {
 
 /* Main spacing */
 main {
+  width: 100vw;
   position: sticky;
   background: transparent;
   z-index: 10;
@@ -172,7 +173,6 @@ div.media-left img {
 div.page-content {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 1.5rem;
   padding-top: 3rem; /*py-6*/
   padding-bottom: 0rem; /*py-6*/
 }

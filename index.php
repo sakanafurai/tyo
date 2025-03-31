@@ -18,12 +18,12 @@
   <!-- Load Bludit Plugins: Site Body Begin -->
   <?php Theme::plugins('siteBodyBegin'); ?>
 
-  <div class="bg columns">
+  <div class="bg columns has-background-grey-lighter">
     <div class="column is-4 has-background-grey-light"></div>
     <div class="column is-8 has-background-grey-lighter"></div>
   </div>
 
-  <main>
+  <main class="container is-desktop">
     <div class="columns main m-0">
 
     <!-- Sidebar -->

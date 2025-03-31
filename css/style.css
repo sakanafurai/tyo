@@ -187,13 +187,13 @@ span.category-tag svg {
 
 /* Footer */
 footer {
-  margin: 0;
-  padding: 1.5rem 0; /*py-5*/
+ /* margin: 0;
+  padding: 1.5rem 0;*/ /*py-5*/
 }
 
 @media screen and (max-width: 768px) {
   footer {
-    margin: 0;
-    padding: 1.5rem 1rem; /*py-5, px-4*/
+    /*margin: 0;
+    padding: 1.5rem 1rem; *//*py-5, px-4*/
   }
 }

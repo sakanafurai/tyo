@@ -1,6 +1,6 @@
 <!-- Page content -->
 <div class="column is-8 p-0 m-0 main">
-  <div class="page-content" data-aos="fade-down">
+  <div class="article" data-aos="fade-down">
     <div class="box">
     <!-- Title -->
       <h2 class="title page-title"><?php echo $page->title(); ?></h2>

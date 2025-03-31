@@ -174,19 +174,19 @@ div.media-left img {
 }
 
 /* Pages */
-div.page-content {
+div.article {
   margin-right: auto;
   margin-left: auto;
   padding-top: 3rem; /*py-6*/
   padding-bottom: 0rem; /*py-6*/
 }
 
-div.page-content div.box {
+div.article div.box {
   padding: 3rem;
 }
 
 @media screen and (max-width: 768px) {
-  div.page-content {
+  div.article {
     margin-top: 0;
     margin-right: unset;
     margin-left: unset;
@@ -194,7 +194,7 @@ div.page-content div.box {
     padding: 0;
   }
 
-  div.page-content div.box {
+  div.article div.box {
     padding: 3rem 1rem;
     border-radius: 0;
   }

@@ -31,7 +31,7 @@
   </div>
 
   <!-- Menu -->
-  <div class="navbar-menu has-background-inherit" id="navMenu">
+  <div class="navbar-menu has-background-inherit is-shadowless" id="navMenu">
     <div class="navbar-end">
       <a class="navbar-item has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 

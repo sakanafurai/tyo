@@ -19,14 +19,14 @@
   </nav>
 
   <!-- Title logo -->
-  <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">
-    <figure class="title-logo mt-2 mb-4">
+  <div class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-align-items-center">
+    <figure class="title-logo pt-0 pb-0 pr-4 pl-4">
     <?php if ($site->logo()): ?>
-      <img class="image is-rounded" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
+      <img class="image is-rounded is-64x64" src="<?php echo ($site->logo()); ?>" alt="<?php echo $site->title(); ?>">
     <?php endif ?>
     </figure>
 
-    <h1 class="title has-text-centered site-title mb-5"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
+    <h1 class="title has-text-centered site-title pt-0 pb-0"><a class="has-text-inherit" href="<?php echo Theme::siteUrl() ?>"><?php echo $site->title(); ?></a></h1>
 
   </div>
 

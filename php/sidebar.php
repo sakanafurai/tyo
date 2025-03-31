@@ -68,7 +68,7 @@
 
 <!-- Sidebar -->
 <div class="column is-4 p-0 mb-5 is-hidden-mobile sidebar desktop-sidebar">
-  <div class="sidebar-content">
+  <div class="sidebar-content is-pulled-left">
 
     <!-- Title logo -->
     <div class="is-flex is-flex-direction-column is-justify-content-center is-align-items-center">

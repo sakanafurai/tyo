@@ -82,8 +82,26 @@
 
     </div>
 
-    <!-- Main menu -->
-    <div class="columns is-multiline is-2 p-5 pb-6 main-menu">
+    <!-- Tablet Main menu -->
+    <div class="is-flex is-flex-direction-column p-5 pb-6 is-hidden-mobile is-hidden-desktop main-menu">
+      <a class="has-text-inherit has-text-centered has-text-weight-semibold mb-2" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
+
+      <!-- Categories -->
+      <?php
+      $items = getCategories();
+      foreach ($items as $category) { ?>
+        <a class="has-text-inherit has-text-centered has-text-weight-semibold mb-2" href="<?php echo $category->permalink() ?>"><?php echo $category->name() ?></a>
+        <?php } ?>
+
+      <!-- Static pages -->
+      <?php foreach ($staticContent as $staticPage) : ?>
+        <a class="has-text-inherit is-hidden-mobile has-text-centered has-text-weight-semibold mb-2" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
+      <?php endforeach ?>
+
+    </div>
+
+    <!-- Desktop Main menu -->
+    <div class="columns is-multiline is-2 p-5 pb-6 is-hidden-touch main-menu">
       <a class="column is-half has-text-inherit has-text-centered has-text-weight-semibold" href="<?php echo Theme::siteUrl() ?>"><?php echo $L->get('home'); ?></a>
 
       <!-- Categories -->
@@ -98,7 +116,7 @@
         <a class="column is-half has-text-inherit is-hidden-mobile has-text-centered has-text-weight-semibold" href="<?php echo $staticPage->permalink() ?>"><?php echo $staticPage->title() ?></a>
       <?php endforeach ?>
 
-    </div>
+      </div>
 
     <!-- Social Networks -->
     <div class="social-links level is-flex-direction-row is-justify-content-center is-align-items-center is-flex-wrap-nowrap is-hidden-mobile px-6 mb-6">

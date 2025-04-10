@@ -40,7 +40,7 @@
         <div class="media-content">
 
         <!-- Title -->
-          <p class="title is-4"><?php echo $page->title(); ?></p>
+          <p class="title is-4 page-title"><?php echo $page->title(); ?></p>
           <p class="subtitle is-6 mt-2 mr-2"><?php echo $page->date(); ?></p>
         </div>
       </div>
@@ -67,7 +67,7 @@
         </div>
         <a href="<?php echo $page->permalink(); ?>"></a>
         <div class="media-content p-3 pt-4">
-          <p class="title is-5"><?php echo $page->title(); ?></p>
+          <p class="title is-5 page-title"><?php echo $page->title(); ?></p>
 
         </div>
 

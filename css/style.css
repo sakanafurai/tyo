@@ -151,6 +151,10 @@ div.media-left img {
 }
 
 /* Pages */
+.page-title:empty:before {
+  content: "\025a0";
+}
+
 div.article {
   margin-right: auto;
   margin-left: auto;
